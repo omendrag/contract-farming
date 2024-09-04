@@ -65,7 +65,98 @@ function changeLanguage() {
             elements.aadhaarLabel.textContent = 'ಆಧಾರ್ ಸಂಖ್ಯೆ: *';
             elements.nextButton.textContent = 'ಮುಂದಿನ ಪುಟ;
     }
+                 elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+    }
+ elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+} elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+} elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+} elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
 }
+ elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+}
+ elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+} elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+
 
 // Populate the drag and drop lists for state, city, and district
 // This example does not include the full implementation. 
