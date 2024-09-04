@@ -172,7 +172,5 @@ function changeLanguage() {
             break;
     }
 
-    // Populate the drag and drop lists for state, city, and district
-    // This example does not include the full implementation. 
-    // You'll need to populate these lists based on your data source.
+    
 }
