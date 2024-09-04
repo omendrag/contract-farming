@@ -54,16 +54,16 @@ function changeLanguage() {
             break;
         // Add more languages as needed
         default:
-            elements.title.textContent = 'User Details';
-            elements.nameLabel.textContent = 'Name: *';
-            elements.languageLabel.textContent = 'Language: *';
-            elements.dobLabel.textContent = 'Date of Birth: *';
-            elements.stateLabel.textContent = 'State: *';
-            elements.cityLabel.textContent = 'City: *';
-            elements.districtLabel.textContent = 'District: *';
-            elements.phoneLabel.textContent = 'Registered Phone Number: *';
-            elements.aadhaarLabel.textContent = 'Aadhaar Number: *';
-            elements.nextButton.textContent = 'Next Page';
+            elements.title.textContent = 'ಬಳಕೆದಾರರ ವಿವರಗಳು';
+            elements.nameLabel.textContent = 'ಹೆಸರು: *';
+            elements.languageLabel.textContent = 'ಭಾಷೆ: *';
+            elements.dobLabel.textContent = 'ಹುಟ್ಟಿದ ದಿನಾಂಕ: *';
+            elements.stateLabel.textContent = 'ಹುಟ್ಟಿದ ದಿನಾಂಕ: *;
+            elements.cityLabel.textContent = 'ನಗರ: *';
+            elements.districtLabel.textContent = 'ಜಿಲ್ಲೆ: *';
+            elements.phoneLabel.textContent = 'ನೋಂದಾಯಿತ ದೂರವಾಣಿ ಸಂಖ್ಯೆ: *';
+            elements.aadhaarLabel.textContent = 'ಆಧಾರ್ ಸಂಖ್ಯೆ: *';
+            elements.nextButton.textContent = 'ಮುಂದಿನ ಪುಟ;
     }
 }
 
