@@ -71,29 +71,29 @@ function changeLanguage() {
             break;
     }
         case 'Marathi':
-            elements.title.textContent = 'उपयोगकर्ता विवरण *';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.title.textContent = 'वापरकर्ता तपशील: *';
+            elements.nameLabel.textContent = 'नाव: *';
+            elements.languageLabel.textContent = 'भाषा *';
+            elements.dobLabel.textContent = 'जन्मतारीख: *';
             elements.stateLabel.textContent = 'राज्य: *';
             elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
+            elements.districtLabel.textContent = 'जिल्हा: *';
+            elements.phoneLabel.textContent = 'नोंदणीकृत मोबाईल क्रमांक: *';
+            elements.aadhaarLabel.textContent = 'आधार क्रमांक: *';
+            elements.nextButton.textContent = 'पुढील पान';
             break;
 }
         case 'Telugu':
-            elements.title.textContent = 'उपयोगकर्ता विवरण';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
-            elements.stateLabel.textContent = 'राज्य: *';
-            elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
+            elements.title.textContent = 'వినియోగదారు వివరాలు';
+            elements.nameLabel.textContent = 'పేరు: *';
+            elements.languageLabel.textContent = 'భాష: *';
+            elements.dobLabel.textContent = 'పుట్టిన తేదీ: *';
+            elements.stateLabel.textContent = 'రాష్ట్రం: *';
+            elements.cityLabel.textContent = 'నగరం: *';
+            elements.districtLabel.textContent = 'జిల్లా: *';
+            elements.phoneLabel.textContent = 'నమోదిత మొబైల్ నంబర్: *';
+            elements.aadhaarLabel.textContent = 'ఆధార్ సంఖ్య: *';
+            elements.nextButton.textContent = 'తదుపరి పేజీ';
             break;
 }         
        case 'Bengali':
