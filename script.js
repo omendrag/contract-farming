@@ -24,7 +24,7 @@ function changeLanguage() {
         districtLabel: document.getElementById("district-label"),
         phoneLabel: document.getElementById("phone-label"),
         aadhaarLabel: document.getElementById("aadhaar-label"),
-        nextButton: document.getElementById("next-button")
+        nextButton: document.getElementById("next-button"),
     };
 
     switch (selectedLanguage) {
@@ -39,7 +39,10 @@ function changeLanguage() {
             elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
             elements.aadhaarLabel.textContent = 'आधार नंबर: *';
             elements.nextButton.textContent = 'अगला पृष्ठ';
+
             break;
+
+    }
         case 'Tamil':
             elements.title.textContent = 'பயனர் விவரங்கள்';
             elements.nameLabel.textContent = 'பெயர்: *';
@@ -52,8 +55,9 @@ function changeLanguage() {
             elements.aadhaarLabel.textContent = 'ஆதார் எண்: *';
             elements.nextButton.textContent = 'அடுத்த பக்கம்';
             break;
-        // Add more languages as needed
-        default:
+    }
+
+        case 'Kannada': 
             elements.title.textContent = 'ಬಳಕೆದಾರರ ವಿವರಗಳು';
             elements.nameLabel.textContent = 'ಹೆಸರು: *';
             elements.languageLabel.textContent = 'ಭಾಷೆ: *';
@@ -64,53 +68,10 @@ function changeLanguage() {
             elements.phoneLabel.textContent = 'ನೋಂದಾಯಿತ ದೂರವಾಣಿ ಸಂಖ್ಯೆ: *';
             elements.aadhaarLabel.textContent = 'ಆಧಾರ್ ಸಂಖ್ಯೆ: *';
             elements.nextButton.textContent = 'ಮುಂದಿನ ಪುಟ;
-    }
-                 elements.title.textContent = 'उपयोगकर्ता विवरण';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
-            elements.stateLabel.textContent = 'राज्य: *';
-            elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
             break;
     }
- elements.title.textContent = 'उपयोगकर्ता विवरण';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
-            elements.stateLabel.textContent = 'राज्य: *';
-            elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
-            break;
-} elements.title.textContent = 'उपयोगकर्ता विवरण';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
-            elements.stateLabel.textContent = 'राज्य: *';
-            elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
-            break;
-} elements.title.textContent = 'उपयोगकर्ता विवरण';
-            elements.nameLabel.textContent = 'नाम: *';
-            elements.languageLabel.textContent = 'भाषा: *';
-            elements.dobLabel.textContent = 'जन्म तिथि: *';
-            elements.stateLabel.textContent = 'राज्य: *';
-            elements.cityLabel.textContent = 'शहर: *';
-            elements.districtLabel.textContent = 'जिला: *';
-            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
-            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
-            elements.nextButton.textContent = 'अगला पृष्ठ';
-            break;
-} elements.title.textContent = 'उपयोगकर्ता विवरण';
+        case 'Marathi':
+            elements.title.textContent = 'उपयोगकर्ता विवरण *';
             elements.nameLabel.textContent = 'नाम: *';
             elements.languageLabel.textContent = 'भाषा: *';
             elements.dobLabel.textContent = 'जन्म तिथि: *';
@@ -122,7 +83,60 @@ function changeLanguage() {
             elements.nextButton.textContent = 'अगला पृष्ठ';
             break;
 }
- elements.title.textContent = 'ଉପଭୋକ୍ତା ବିବରଣୀ'';
+        case 'Telugu':
+            elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+}         
+       case 'Bengali':
+            elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+} 
+      case'Gujarati': 
+            elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+}           
+case 'Malayalam':      
+            elements.title.textContent = 'उपयोगकर्ता विवरण';
+            elements.nameLabel.textContent = 'नाम: *';
+            elements.languageLabel.textContent = 'भाषा: *';
+            elements.dobLabel.textContent = 'जन्म तिथि: *';
+            elements.stateLabel.textContent = 'राज्य: *';
+            elements.cityLabel.textContent = 'शहर: *';
+            elements.districtLabel.textContent = 'जिला: *';
+            elements.phoneLabel.textContent = 'पंजीकृत फ़ोन नंबर: *';
+            elements.aadhaarLabel.textContent = 'आधार नंबर: *';
+            elements.nextButton.textContent = 'अगला पृष्ठ';
+            break;
+}
+  case 'Odia':          
+            elements.title.textContent = 'ଉପଭୋକ୍ତା ବିବରଣୀ'';
             elements.nameLabel.textContent = 'ନାମ: *';
             elements.languageLabel.textContent = 'ଭାଷା: *';
             elements.dobLabel.textContent = 'ଜନ୍ମ ତାରିଖ: *';
@@ -134,7 +148,8 @@ function changeLanguage() {
             elements.nextButton.textContent = 'ପରବର୍ତ୍ତୀ ପୃଷ୍ଠା';
             break;
 }
- elements.title.textContent = 'ਉਪਭੋਗਤਾ ਵੇਰਵੇ';
+case 'Punjabi': 
+            elements.title.textContent = 'ਉਪਭੋਗਤਾ ਵੇਰਵੇ';
             elements.nameLabel.textContent = 'ਨਾਂ: *';
             elements.languageLabel.textContent = 'ਭਾਸ਼ਾ: *';
             elements.dobLabel.textContent = 'ਜਨਮ ਦੀ ਤਾਰੀਖ: *';
@@ -145,7 +160,9 @@ function changeLanguage() {
             elements.aadhaarLabel.textContent = 'ਆਧਾਰ ਨੰਬਰ: *';
             elements.nextButton.textContent = 'ਅਗਲਾ ਪੰਨਾ';
             break;
-} elements.title.textContent = 'صارف کی تفصیلات';
+}           
+     case 'Urdu':
+            elements.title.textContent = 'صارف کی تفصیلات';
             elements.nameLabel.textContent = 'نام: *';
             elements.languageLabel.textContent = 'زبان: *';
             elements.dobLabel.textContent = 'تاريخ پيدائش: *';
